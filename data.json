@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "artist_name": "ゴマねこ",
+      "artist_href": "https://www.pixiv.net/en/users/35398686",
+      "source_url": "https://www.pixiv.net/en/artworks/118668944",
+      "url": "https://nekos.best/api/v2/neko/989a6b0a-da7b-4455-b816-306b98c5cb19.png"
+    },
+    {
+      "artist_name": "アニメ猫",
+      "artist_href": "https://www.pixiv.net/en/users/12345678",
+      "source_url": "https://www.pixiv.net/en/artworks/98765432",
+      "url": "https://nekos.best/api/v2/neko/abcdefg-1234.png"
+    },
+    {
+      "artist_name": "猫神",
+      "artist_href": "https://www.pixiv.net/en/users/87654321",
+      "source_url": "https://www.pixiv.net/en/artworks/11223344",
+      "url": "https://nekos.best/api/v2/neko/1122aa-bb33.png"
+    }
+  ]
+}
