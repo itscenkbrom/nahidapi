@@ -73,6 +73,34 @@ const data = {
 {
   artist_name: "玄米Kome",
   url: "https://webstatic.hoyoverse.com/upload/event/2023/05/10/3e97f51da660125f0572e187657a67d5_3049130503459032752.jpg?x-oss-process=image/format,webp/quality,Q_90"
+},
+  {
+  artist_name: "Den99",
+  url: "https://cdnb.artstation.com/p/assets/images/images/059/214/871/large/den99-c90fb801-9768-4094-b353-61b8c41dacb6.jpg?1675884189"
+},
+{
+  artist_name: "H.K Karl",
+  url: "https://cdna.artstation.com/p/assets/images/images/062/094/622/large/karl-hanqing-kjellgren-illustration33-6.jpg?1682351441"
+},
+{
+  artist_name: "SPark",
+  url: "https://cdna.artstation.com/p/assets/images/images/077/881/108/large/spark-spark-240710.jpg?1720605728"
+},
+{
+  artist_name: "Siren Cove",
+  url: "https://cdnb.artstation.com/p/assets/images/images/060/413/321/large/siren-cove-image3-14.jpg?1678497709"
+},
+{
+  artist_name: "H-Battuosai",
+  url: "https://cdna.artstation.com/p/assets/images/images/053/727/506/large/h-battousai-nahida-uplox.jpg?1662905358"
+},
+{
+  artist_name: "amagumo",
+  url: "https://cdnb.artstation.com/p/assets/images/images/090/162/407/large/amagumo-nahida.jpg?1753108444"
+},
+{
+  artist_name: "Jowie Ng",
+  url: "https://cdnb.artstation.com/p/assets/images/images/073/837/651/large/jowie-ng-nahida.jpg?1710600103"
 }
   ]
 };
@@ -102,5 +130,6 @@ app.get('/health', (req, res) => {
 app.listen(port, () => {
   console.log(`NahidaApi listening at http://localhost:${port}`);
 });
+
 
 
