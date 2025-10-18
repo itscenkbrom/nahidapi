@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const fs = require('fs');
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -12,19 +13,17 @@ app.get('/health', (req, res) => {
   res.send('API is healthy!');
 });
 
-// NekoApi benzeri endpoint
+// Random /mita endpoint
 app.get('/mita', (req, res) => {
-  const data = {
-    results: [
-      {
-        artist_name: "ゴマねこ",
-        artist_href: "https://www.pixiv.net/en/users/35398686",
-        source_url: "https://www.pixiv.net/en/artworks/118668944",
-        url: "https://nekos.best/api/v2/neko/989a6b0a-da7b-4455-b816-306b98c5cb19.png"
-      }
-    ]
-  };
-  res.json(data);
+  const rawData = fs.readFileSync('data.json');
+  const data = JSON.parse(rawData);
+
+  // Random bir index seç
+  const randomIndex = Math.floor(Math.random() * data.results.length);
+  const randomResult = data.results[randomIndex];
+
+  // Tekli JSON objesi döndür
+  res.json({ results: [randomResult] });
 });
 
 app.listen(port, () => {
