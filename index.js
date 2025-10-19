@@ -309,6 +309,78 @@ const data = {
 {
   artist_name: "Von Grechii",
   url: "https://cdnb.artstation.com/p/assets/images/images/054/731/213/large/von-grechii-kusanali-sket.jpg?1665233878"
+},
+{
+  artist_name: "renene",
+  url: "https://upload-os-bbs.hoyolab.com/upload/2024/02/06/21083969/1292a40737b8ad685cbc9e0cd0a16ac8_5849077854283477784.png?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_70"
+},
+{
+  artist_name: "tsuyutya",
+  url: "https://cdn.donmai.us/original/ed/1c/__nahida_genshin_impact_drawn_by_tsuyutya__ed1ca464aa1ae3795c3ed34052dc3fae.jpg"
+},
+{
+  artist_name: "Ame Akira",
+  url: "https://cdn.donmai.us/original/18/43/__nahida_genshin_impact_drawn_by_ame_akira__1843485ee3d3669391b6c35b91323c36.jpg"
+},
+{
+  artist_name: "Shu Syu",
+  url: "https://cdn.donmai.us/original/74/fd/__nahida_genshin_impact_drawn_by_shuu_syuuuuuuuuuu__74fd625ff3daf9678c9a2e8c18dc2b3a.png"
+},
+{
+  artist_name: "Miyashiroki",
+  url: "https://cdn.donmai.us/original/33/ab/__nahida_genshin_impact_drawn_by_miyashirokiyu__33ab1fce96280ec159078ac58dfa56fe.png"
+},
+{
+  artist_name: "Ustya0",
+  url: "https://cdn.donmai.us/original/dd/06/__nahida_genshin_impact_drawn_by_ustya_0__dd0650856f103ea193ffbc588230c944.png"
+},
+{
+  artist_name: "Popopo84",
+  url: "https://cdn.donmai.us/original/52/4e/__nahida_slime_and_dendro_slime_genshin_impact_drawn_by_popopo_84__524eb485b2d5d271d4a1754d72c4ba7d.jpg"
+},
+{
+  artist_name: "Tenpi3152",
+  url: "https://cdn.donmai.us/original/d5/22/__scaramouche_nahida_and_wanderer_genshin_impact_drawn_by_tenpi_hello_3152__d52201143ac83fd39361d392ae6257c1.jpg"
+},
+{
+  artist_name: "Urotsuki9625",
+  url: "https://cdn.donmai.us/original/a5/b7/__nahida_genshin_impact_drawn_by_urotsuki_ku9625__a5b76ed7e4c2b0fa62a9a0b9a82e5ef2.jpg"
+},
+{
+  artist_name: "Harukui",
+  url: "https://cdn.donmai.us/original/e7/8a/__nahida_and_aranara_genshin_impact_drawn_by_harukui__e78ab0d3e3edc917cf4efcfaa6f86cbf.jpg"
+},
+{
+  artist_name: "Oishii Sasa",
+  url: "https://cdn.donmai.us/original/77/87/__nahida_and_jirachi_pokemon_and_1_more_drawn_by_oishii_sasa__778796215d2c701f6b4d5ad76d062eb9.png"
+},
+{
+  artist_name: "Meroharom",
+  url: "https://cdn.donmai.us/original/17/0f/__nahida_genshin_impact_drawn_by_meroharome__170fd8cd5539079a30b4a39a137ac4eb.png"
+},
+{
+  artist_name: "TamengOfficial",
+  url: "https://cdn.donmai.us/original/0f/ac/__nahida_genshin_impact_drawn_by_tameng_official__0fac27fb6d5523c02fb88d5e1be68f17.png"
+},
+{
+  artist_name: "YUtuKI",
+  url: "https://cdn.donmai.us/original/63/47/__nahida_genshin_impact_drawn_by_yutukicom__6347f10d1938b453e3a35f13249404cf.png"
+},
+{
+  artist_name: "Hamo Miyormo",
+  url: "https://cdn.donmai.us/original/4f/35/__nahida_genshin_impact_drawn_by_hamo_miyo_rmo2__4f35cd2de490760807eeb0ceaffcaa8d.jpg"
+},
+{
+  artist_name: "Didtldms0312",
+  url: "https://cdn.donmai.us/original/a0/3f/__nahida_genshin_impact_drawn_by_didtldms0312__a03f3a72bdb53e929132a13af632e8d7.jpg"
+},
+{
+  artist_name: "Rei_sss353",
+  url: "https://cdn.donmai.us/original/f8/35/__nahida_genshin_impact_drawn_by_rei_sss35_ss3__f8354d3dc99eb1b15595c2d0950ed200.jpg"
+},
+{
+  artist_name: "Osuzu0613",
+  url: "https://cdn.donmai.us/original/63/a2/__nahida_genshin_impact_drawn_by_osuzu0613__63a2a36457e017e5cb095849a537e510.jpg"
 }
   ]
 };
@@ -338,6 +410,7 @@ app.get('/health', (req, res) => {
 app.listen(port, () => {
   console.log(`NahidaApi listening at http://localhost:${port}`);
 });
+
 
 
 
