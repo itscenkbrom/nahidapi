@@ -145,6 +145,10 @@ const data = {
 {
   artist_name: "easily-addicted",
   url: "https://64.media.tumblr.com/90623c6b9d44d8bcfc8157f0a7d14785/71dca27f0e0e77dc-b9/s2048x3072/5a2933dd2bb82467715c3078fbc6d55044b7b521.pnj"
+},
+{
+  artist_name: "man_447",
+  url: "https://preview.redd.it/dokitale-part-one-v0-lp6yqnmg1j4f1.png?width=1080&crop=smart&auto=webp&s=fcd525a36e005ce0d329662afc4aafa91789f7dd"
 }
   ]
 };
@@ -174,6 +178,7 @@ app.get('/health', (req, res) => {
 app.listen(port, () => {
   console.log(`DokiTaleApi listening at http://localhost:${port}`);
 });
+
 
 
 
