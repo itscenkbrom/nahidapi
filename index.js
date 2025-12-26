@@ -19,6 +19,18 @@ const data = {
   url: "https://i.redd.it/y46woyko4px01.png"
 },
 {
+  artist_name: "leed",
+  url: "https://i.pximg.net/img-original/img/2018/01/13/10/41/01/66777404_p0.png"
+},
+{
+  artist_name: "Mehmet959",
+  url: "https://i.redd.it/e51gs2ho72u41.jpg"
+},
+{
+  artist_name: "bongftah",
+  url: "https://i.imgur.com/TzfskOc.jpeg"
+},
+{
   artist_name: "596o3",
   url: "https://i.redd.it/1t8waaci30n31.jpg"
 },
@@ -230,6 +242,7 @@ app.get('/health', (req, res) => {
 app.listen(port, () => {
   console.log(`DokiTaleApi listening at http://localhost:${port}`);
 });
+
 
 
 
