@@ -19,6 +19,10 @@ const data = {
   url: "https://i.redd.it/y46woyko4px01.png"
 },
 {
+  artist_name: "夏忭",
+  url: "https://i.imgur.com/sLYorbw.jpeg"
+},
+{
   artist_name: "SillyLasagna_FNF",
   url: "https://i.redd.it/3frrn1llpxle1.png"
 },
@@ -67,8 +71,16 @@ const data = {
   url: "https://i1.sndcdn.com/artworks-000354216069-4rmpke-t500x500.jpg"
 },
 {
+  artist_name: "RumayChian",
+  url: "https://i.imgur.com/PgDGwcw.jpeg"
+},
+{
   artist_name: "KiBeRRy",
   url: "https://m.gjcdn.net/fireside-post-image/700/23450307-s8p5pnva-v4.webp"
+},
+{
+  artist_name: "猫太朗",
+  url: "https://i.imgur.com/eBmktnF.jpeg"
 },
 {
   artist_name: "Veyo <3",
@@ -210,6 +222,7 @@ app.get('/health', (req, res) => {
 app.listen(port, () => {
   console.log(`DokiTaleApi listening at http://localhost:${port}`);
 });
+
 
 
 
