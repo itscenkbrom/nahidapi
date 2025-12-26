@@ -67,7 +67,7 @@ const data = {
   url: "https://i.redd.it/sywtmqkh6v531.jpg"
 },
 {
-  artist_name: "*Bilinmiyor*",
+  artist_name: "HpoXsD",
   url: "https://i.redd.it/6saewg0h9tm71.jpg"
 },
 {
@@ -242,6 +242,7 @@ app.get('/health', (req, res) => {
 app.listen(port, () => {
   console.log(`DokiTaleApi listening at http://localhost:${port}`);
 });
+
 
 
 
