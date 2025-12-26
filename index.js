@@ -19,6 +19,34 @@ const data = {
   url: "https://i.redd.it/y46woyko4px01.png"
 },
 {
+  artist_name: "SillyLasagna_FNF",
+  url: "https://i.redd.it/3frrn1llpxle1.png"
+},
+{
+  artist_name: "DraconicBladewing64",
+  url: "https://i.redd.it/vcazrfvhce0a1.jpg"
+},
+{
+  artist_name: "情珠",
+  url: "https://i.imgur.com/KgksGCJ.jpeg"
+},
+{
+  artist_name: "KirkFarm",
+  url: "https://i.imgur.com/TRDxsug.jpeg"
+},
+{
+  artist_name: "Dokimember-Michael",
+  url: "https://i.redd.it/0bb8mw3o3oid1.png"
+},
+{
+  artist_name: "SzymonDDLC",
+  url: "https://i.redd.it/sywtmqkh6v531.jpg"
+},
+{
+  artist_name: "*Bilinmiyor*",
+  url: "https://i.redd.it/6saewg0h9tm71.jpg"
+},
+{
   artist_name: "KiBeRRy",
   url: "https://f4.bcbits.com/img/a2284778107_10.jpg"
 },
@@ -182,6 +210,7 @@ app.get('/health', (req, res) => {
 app.listen(port, () => {
   console.log(`DokiTaleApi listening at http://localhost:${port}`);
 });
+
 
 
 
