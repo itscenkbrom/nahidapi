@@ -154,7 +154,7 @@ const data = {
       url: "https://i.imgur.com/XUAujmR.png"
     },
 
-    /* KALAN SHENIDRAWS (6 ADET) */
+    /* SHENIDRAWS KAYITLARI */
     {
       artist_name: "shenidraws",
       url: "https://64.media.tumblr.com/7ff1e11882f3ac1b6efb9660403b585e/127701d7ab7708d9-21/s2048x3072/52f513df679047ed8bf263c1792373a6e40c8be2.png"
@@ -198,7 +198,7 @@ const data = {
     },
     {
       artist_name: "easily-addicted",
-      url: "https://64.media.tumblr.com/90623c6b9d44d8bcfc8157f0a7d14785/71dca27f0e0e77dc-b9/s2048x3072/5a2933dd2bb82467715c3078fbc6d55044b7b521.pnj"
+      url: "https://64.media.tumblr.com/90623c6b9d44d8bcfc8157f0a7d14785/71dca27f0e0e77dc-b9/s2048x3072/5a2933dd2bb82467715c3078fbc6d55044b7b521.png"
     },
     {
       artist_name: "man_447",
