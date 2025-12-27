@@ -28,7 +28,7 @@ const data = {
 },  
 {
   artist_name: "leed",
-  url: "https://i.pximg.net/img-original/img/2018/01/13/10/41/01/66777404_p0.png"
+  url: "https://i.imgur.com/Iqn5NKg.png"
 },
 {
   artist_name: "Mehmet959",
@@ -250,6 +250,7 @@ app.get('/health', (req, res) => {
 app.listen(port, () => {
   console.log(`DokiTaleApi listening at http://localhost:${port}`);
 });
+
 
 
 
