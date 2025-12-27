@@ -62,7 +62,7 @@ const data = {
       url: "https://i.imgur.com/sLYorbw.jpeg"
     },
     {
-      artist_name: "SillyLasagna_FNF",
+      artist_name: "SillyLasagnaFNF",
       url: "https://i.redd.it/3frrn1llpxle1.png"
     },
     {
@@ -185,7 +185,7 @@ const data = {
       url: "https://64.media.tumblr.com/053a1e93a91d8d095546c73ed7ad1095/a838d7e9f2001856-83/s1280x1920/56cbab44d0d7062a78b4285793da7cc0d7897408.png"
     },
     {
-      artist_name: "viarayy01-blog",
+      artist_name: "viarayy01",
       url: "https://64.media.tumblr.com/038f5ea1f3ba478637451099c03e83b3/c42bcad82fbce018-8a/s2048x3072/7f1e2fac9423350f316d86348667b264075909a1.png"
     },
     {
@@ -193,11 +193,11 @@ const data = {
       url: "https://64.media.tumblr.com/9b74f28c9b337fcf4fa7ed30d3947347/81e799dade1b6814-85/s1280x1920/f4511344c381f503c78f85383249eeec476eaff5.jpg"
     },
     {
-      artist_name: "univer-underfell",
+      artist_name: "Univer Underfell",
       url: "https://64.media.tumblr.com/ef7fdb46827596e48312b71bd5b40cbc/f6d02de1e0420544-19/s640x960/856c4401a23bf01931c0c5150a4f64236b51ad1c.jpg"
     },
     {
-      artist_name: "easily-addicted",
+      artist_name: "Easily_addicted",
       url: "https://64.media.tumblr.com/90623c6b9d44d8bcfc8157f0a7d14785/71dca27f0e0e77dc-b9/s2048x3072/5a2933dd2bb82467715c3078fbc6d55044b7b521.png"
     },
     {
@@ -223,3 +223,4 @@ app.get('/health', (req, res) => {
 app.listen(port, () => {
   console.log(`DokiTaleApi listening at http://localhost:${port}`);
 });
+
