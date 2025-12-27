@@ -201,14 +201,6 @@ const data = {
       artist_name: "man_447",
       url: "https://preview.redd.it/dokitale-part-one-v0-lp6yqnmg1j4f1.png"
     }
-    {
-      artist_name: "man_447",
-      url: "https://preview.redd.it/dokitale-part-one-v0-lp6yqnmg1j4f1.png"
-    }
-{
-      artist_name: "man_447",
-      url: "https://preview.redd.it/dokitale-part-one-v0-lp6yqnmg1j4f1.png"
-    }
   ]
 };
 
@@ -243,5 +235,6 @@ app.get('/health', (req, res) => {
 app.listen(port, () => {
   console.log(`DokiTaleApi listening at http://localhost:${port}`);
 });
+
 
 
