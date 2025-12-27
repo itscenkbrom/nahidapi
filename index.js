@@ -55,7 +55,7 @@ const data = {
   url: "https://i.redd.it/1t8waaci30n31.jpg"
 },
 {
-  artist_name: "kermit-de-frog",
+  artist_name: "Kermit De Frog",
   url: "https://i.redd.it/94oy6od35dx31.png"
 },
 {
@@ -79,7 +79,7 @@ const data = {
   url: "https://i.imgur.com/TRDxsug.jpeg"
 },
 {
-  artist_name: "Dokimember-Michael",
+  artist_name: "Michael",
   url: "https://i.redd.it/0bb8mw3o3oid1.png"
 },
 {
@@ -262,6 +262,7 @@ app.get('/health', (req, res) => {
 app.listen(port, () => {
   console.log(`DokiTaleApi listening at http://localhost:${port}`);
 });
+
 
 
 
