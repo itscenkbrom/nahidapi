@@ -19,6 +19,10 @@ const data = {
   url: "https://i.redd.it/y46woyko4px01.png"
 },
 {
+  artist_name: "KIRINAS",
+  url: "https://i.imgur.com/6ETrM1H.png"
+},
+{
   artist_name: "Disfeelings",
   url: "https://i.imgur.com/NQqxZ9p.jpeg"
 },
@@ -254,6 +258,7 @@ app.get('/health', (req, res) => {
 app.listen(port, () => {
   console.log(`DokiTaleApi listening at http://localhost:${port}`);
 });
+
 
 
 
