@@ -18,6 +18,30 @@ const data = {
       url: "https://i.redd.it/y46woyko4px01.png"
     },
     {
+      artist_name: "*Bilinmiyor*",
+      url: "https://i.imgur.com/yvRAEzW.png"
+    },
+    {
+      artist_name: "*Bilinmiyor*",
+      url: "https://i.imgur.com/RGJVKOd.png"
+    },
+    {
+      artist_name: "*Bilinmiyor*",
+      url: "https://i.imgur.com/Kro9ngW.png"
+    },
+    {
+      artist_name: "*Bilinmiyor*",
+      url: "https://i.imgur.com/VvnEkYS.png"
+    },
+    {
+      artist_name: "wafflegoomba",
+      url: "https://cdn.drawception.com/drawings/1015894/DcfNk06J41.png"
+    },
+    {
+      artist_name: "AGoombaHobo",
+      url: "https://i.redd.it/ovi77octaet41.jpg"
+    },
+    {
       artist_name: "SashaMalinka",
       url: "https://i.imgur.com/YYpvVhJ.png"
     },
@@ -235,6 +259,7 @@ app.get('/health', (req, res) => {
 app.listen(port, () => {
   console.log(`DokiTaleApi listening at http://localhost:${port}`);
 });
+
 
 
 
